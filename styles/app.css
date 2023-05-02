@@ -10,6 +10,8 @@
   --purple-dark-1: #3E0F64;
   --purple-dark-2: #2A0646;
 
+  --blue-dark : #1B1B34;
+
   --yellow: #EECC75;
   --green: #CAD297;
   --aqua: #B7EAC5;
@@ -30,7 +32,7 @@ html {
 }
 
 body {
-  background-color: var(--purple-light-1);
+  background-color: var(--darkBlue);
   color: var(--purple-dark-2);
   font-family: var(--font-family-text);
   font-weight: var(--font-weight-text1);
@@ -66,11 +68,13 @@ h3 {
 }
 
 input {
-  background-color: var(--purple-light-2);
-  color: var(--purple-medium-2);
-  border: none;
-  font-size: 18px;
-  padding-left: 16px;
+    background-color: var(--purple-light-2);
+    color: var(--purple-medium-2);
+    border: none;
+    font-size: 18px;
+    padding-left: 16px;
+    color: lime;
+
 }
 
 input::placeholder {
