@@ -1,5 +1,6 @@
 /* General */
-* { box-sizing: border-box; }
+* { box-sizing: border-box;
+}
 
 :root {
   --purple-light-1: #FBFAFB;
@@ -32,7 +33,7 @@ html {
 }
 
 body {
-  background-color: var(--darkBlue);
+  background-color: var(--purple-medium-2);
   color: var(--purple-dark-2);
   font-family: var(--font-family-text);
   font-weight: var(--font-weight-text1);
