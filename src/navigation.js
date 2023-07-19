@@ -26,6 +26,11 @@ function navigator() { // vamos a llamar cada vez que cargue el navegador
   } else {
     homePage();
   }
+
+
+  // quitar scroll
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; // zafary
   /*  Operadores ternarios
   
   location.hash.startsWith('#trends')    ? trendsPage()       :
